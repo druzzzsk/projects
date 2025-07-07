@@ -28,7 +28,7 @@ tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
 pipe = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 # Токен для создания телеграм-бота
-BOT_TOKEN = "7948169289:AAHW7sg7dD-zANU8slsBRS7-RbraXS4Q6J0"
+BOT_TOKEN = "....."
 
 import nest_asyncio
 nest_asyncio.apply()
